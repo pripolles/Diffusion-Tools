@@ -1,5 +1,5 @@
 #This script transforms a Tortoise tensor to a DTK compatible format. It uses the reorder.m script
-# It also uses Matlab and FSL
+#It also uses Matlab. SPM and FSL
 
 #Path to the reorder.m script
 INICIO='/home/pablo/Desktop/'
@@ -9,8 +9,6 @@ DIR_PAC='/home/pablo/Desktop/1111/'
 NAME='1442_V3_REL01_DT.nii'
 
 cd $DIR_PAC
-
-
 
 #Transforming to DTK format
 echo "Transforming to DTK format"
